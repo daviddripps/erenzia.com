@@ -11,6 +11,15 @@ export const roboto = Roboto({
 
 // Create a theme instance.
 const theme = createTheme({
+  components: {
+    MuiToolbar: {
+      styleOverrides: {
+        gutters: {
+          marginTop: '18px',
+        },
+      },
+    },
+  },
   palette: {
     primary: {
       main: '#556cd6',
