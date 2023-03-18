@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx lint-staged
+
+retVal=$?
+if [ $retVal -ne 0 ]; then
+    exit retVal
+fi
+
+yarn build
+
+exit 0
