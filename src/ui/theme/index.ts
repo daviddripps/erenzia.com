@@ -12,10 +12,20 @@ export const roboto = Roboto({
 // Create a theme instance.
 const theme = createTheme({
   components: {
-    MuiToolbar: {
+    MuiTypography: {
       styleOverrides: {
-        gutters: {
-          marginTop: '18px',
+        body1: {
+          fontSize: '1.15rem',
+          marginBottom: '0.75rem',
+        },
+        h1: {
+          fontSize: '2rem',
+          fontWeight: 500,
+          marginBottom: '1rem',
+        },
+        subtitle1: {
+          fontSize: '1.25rem',
+          marginBottom: '1rem',
         },
       },
     },
