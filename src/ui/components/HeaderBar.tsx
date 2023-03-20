@@ -42,7 +42,7 @@ const styles: Record<string, SystemStyleObject> = {
   },
   logo: {
     flex: 1,
-    fontSize: 2.5,
+    fontSize: 3, // Only use whole numbers. Decimals cause rendering issues.
   },
 }
 

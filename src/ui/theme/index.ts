@@ -20,12 +20,11 @@ const theme = createTheme({
         },
         h1: {
           fontSize: '2rem',
-          fontWeight: 500,
           marginBottom: '1rem',
         },
-        subtitle1: {
-          fontSize: '1.25rem',
-          marginBottom: '1rem',
+        h2: {
+          fontSize: '1.75rem',
+          fontWeight: '400',
         },
       },
     },
