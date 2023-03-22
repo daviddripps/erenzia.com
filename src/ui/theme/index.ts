@@ -1,6 +1,5 @@
 import { Roboto } from 'next/font/google'
 import { createTheme } from '@mui/material/styles'
-import { red } from '@mui/material/colors'
 
 export const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -12,6 +11,13 @@ export const roboto = Roboto({
 // Create a theme instance.
 const theme = createTheme({
   components: {
+    MuiListItemIcon: {
+      styleOverrides: {
+        root: {
+          minWidth: '42px',
+        },
+      },
+    },
     MuiTypography: {
       styleOverrides: {
         body1: {
@@ -36,8 +42,8 @@ const theme = createTheme({
     secondary: {
       main: '#19857b',
     },
-    error: {
-      main: red.A400,
+    background: {
+      default: '#fdfcff',
     },
   },
   typography: {
