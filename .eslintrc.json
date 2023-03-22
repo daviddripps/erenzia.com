@@ -4,6 +4,6 @@
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
-  "ignorePatterns": ["*.lock", "*.md", "*.png"],
+  "ignorePatterns": ["*.ico", "*.lock", "*.md", "*.png"],
   "plugins": ["@typescript-eslint"]
 }
