@@ -1,11 +1,11 @@
 import { LinkedIn, Twitter } from '@mui/icons-material'
 import { AppBar, Box, Button, IconButton, Toolbar } from '@mui/material'
-
-import type { SystemStyleObject } from '@mui/system'
 import Logo from './Logo'
 
+import type { SystemStyleObject } from '@mui/system'
+
 const HeaderBar = () => (
-  <AppBar color="inherit" elevation={0} position="static">
+  <AppBar color="transparent" elevation={0} position="static">
     <Toolbar sx={styles.appBar}>
       <Logo sx={styles.logo} />
       <Box>
@@ -33,7 +33,6 @@ const HeaderBar = () => (
 
 const styles: Record<string, SystemStyleObject> = {
   appBar: {
-    alignItems: 'start',
     mx: 1,
     my: 4,
   },

@@ -13,8 +13,8 @@ import { Box } from '@mui/material'
 import type { Theme } from '@mui/material'
 import type { SystemStyleObject } from '@mui/system'
 
-const Logo = (props: { sx: SystemStyleObject<Theme> }) => (
-  <Box sx={[s.container, props.sx]}>
+const Logo = ({ sx = {} }: { sx?: SystemStyleObject<Theme> }) => (
+  <Box sx={[s.container, sx]}>
     <Box sx={s.topProtrusion} />
     <Box sx={s.innerTop} />
     <Box sx={s.innerBottom} />
@@ -36,6 +36,7 @@ const linearGradient = ({ palette }: Theme, direction: string) =>
 
 const s: Record<string, SystemStyleObject> = {
   container: {
+    height: '16em',
     position: 'relative',
     '& > .MuiBox-root': {
       borderColor: 'primary.main',
