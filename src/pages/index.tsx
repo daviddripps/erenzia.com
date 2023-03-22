@@ -39,7 +39,7 @@ export default function Home() {
       </Head>
       <HeaderBar />
       <Container component="main" maxWidth="md" sx={styles.content}>
-        <Grid container rowSpacing={4} spacing={3}>
+        <Grid container rowSpacing={4} spacing={4}>
           <Grid item xs={12}>
             <Typography variant="h1">
               We purchase profitable, RevOps companies and supercharge them with
@@ -129,11 +129,17 @@ export default function Home() {
             </Box>
           </Grid>
           <Grid item xs={12} sm={8}>
-            <Typography>
+            <Typography sx={{ mt: 2 }}>
               David Dripps is a former investment banker and entrepreneur
               who&apos;s successfully founded and sold multiple companies.
+              He&apos;s also an investor and advisor for several SaaS and
+              consumer products startups.
             </Typography>
-            <Typography>TODO</Typography>
+            <Typography>
+              Prior to founding Erenzia, he led the Pages Experiences team at
+              Facebook serving small and medium businesses to help them increase
+              revenue and ROAS (Return on Ad Spend).
+            </Typography>
           </Grid>
         </Grid>
       </Container>
