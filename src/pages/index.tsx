@@ -130,15 +130,16 @@ export default function Home() {
           </Grid>
           <Grid item xs={12} sm={8}>
             <Typography sx={{ mt: 2 }}>
-              David Dripps is a former investment banker and entrepreneur
-              who&apos;s successfully founded and sold multiple companies.
-              He&apos;s also an investor and advisor for several SaaS and
-              consumer products startups.
+              David Dripps is a former investment banker turned entrepreneur
+              who&apos;s successfully build and sold several technology and
+              consumer product companies. He&apos;s a sought-after investor and
+              advisor for SaaS and B2C startups.
             </Typography>
             <Typography>
               Prior to founding Erenzia, he led the Pages Experiences team at
-              Facebook serving small and medium businesses to help them increase
-              revenue and ROAS (Return on Ad Spend).
+              Facebook helping small and medium businesses to unlock new value
+              from their digintal marketing and maximize their return on ad
+              spend.
             </Typography>
           </Grid>
         </Grid>
