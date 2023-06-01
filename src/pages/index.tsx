@@ -131,7 +131,7 @@ export default function Home() {
           <Grid item xs={12} sm={8}>
             <Typography sx={{ mt: 2 }}>
               David Dripps is a former investment banker turned entrepreneur
-              who&apos;s successfully build and sold several technology and
+              who&apos;s successfully built and sold several technology and
               consumer product companies. He&apos;s a sought-after investor and
               advisor for SaaS and B2C startups.
             </Typography>
