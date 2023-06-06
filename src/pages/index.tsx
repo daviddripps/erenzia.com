@@ -138,7 +138,7 @@ export default function Home() {
             <Typography>
               Prior to founding Erenzia, he led the Pages Experiences team at
               Facebook helping small and medium businesses to unlock new value
-              from their digintal marketing and maximize their return on ad
+              from their digital marketing and maximize their return on ad
               spend.
             </Typography>
           </Grid>
